@@ -26,14 +26,21 @@
     "devDependencies": {
         "@commitlint/cli": "^17.4.4",
         "@commitlint/config-conventional": "^17.4.4",
+        "@types/lodash": "^4.14.191",
         "@typescript-eslint/eslint-plugin": "^5.55.0",
         "@typescript-eslint/parser": "^5.55.0",
         "commitizen": "^4.3.0",
         "cz-conventional-changelog": "^3.3.0",
         "eslint": "^8.36.0",
         "eslint-config-prettier": "^8.7.0",
+        "heap-js": "^2.2.0",
         "husky": "^8.0.0",
         "lint-staged": "^13.2.0",
         "prettier": "^2.8.4"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "lodash": "^4.17.21",
+        "ts-node": "^10.9.1"
     }
 }
